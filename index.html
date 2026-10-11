@@ -63,13 +63,7 @@
             </div>
             <div class="about-grid">
                 <div class="about-image reveal">
-                    <div class="image-placeholder">
-                        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="100" cy="70" r="40" fill="currentColor" opacity="0.3"/>
-                            <path d="M40 180 Q40 130 100 130 Q160 130 160 180" fill="currentColor" opacity="0.3"/>
-                        </svg>
-                        <span>Your Photo</span>
-                    </div>
+                    <img src="business_photo.jpg" alt="Dominik Smolarek" class="about-photo">
                 </div>
                 <div class="about-text reveal">
                     <p class="about-lead">I'm a well-organized and curious person who pays attention to details and enjoys teamwork.</p>
@@ -450,54 +444,17 @@
                 <h2 class="section-title">Let's work <span class="gradient-text">together</span></h2>
                 <p class="section-subtitle">I'm always open to new opportunities and interesting projects. Feel free to reach out!</p>
             </div>
-            <div class="contact-grid">
-                <div class="contact-info reveal">
-                    <a href="mailto:dominik.smolarek@outlook.com" class="contact-item">
-                        <div class="contact-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-                        </div>
-                        <div>
-                            <span class="contact-label">Email</span>
-                            <span class="contact-value">dominik.smolarek@outlook.com</span>
-                        </div>
-                    </a>
-                    <a href="https://www.linkedin.com/in/dsmolarek/" target="_blank" rel="noopener noreferrer" class="contact-item">
-                        <div class="contact-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-                        </div>
-                        <div>
-                            <span class="contact-label">LinkedIn</span>
-                            <span class="contact-value">linkedin.com/in/dsmolarek</span>
-                        </div>
-                    </a>
-                    <a href="tel:+48606279719" class="contact-item">
-                        <div class="contact-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                        </div>
-                        <div>
-                            <span class="contact-label">Phone</span>
-                            <span class="contact-value">(+48) 606-279-719</span>
-                        </div>
-                    </a>
-                </div>
-                <form class="contact-form reveal" id="contactForm">
-                    <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder=" " required>
-                        <label for="name">Your Name</label>
+            <div class="contact-content reveal">
+                <a href="https://www.linkedin.com/in/dsmolarek/" target="_blank" rel="noopener noreferrer" class="contact-linkedin">
+                    <div class="contact-linkedin-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
                     </div>
-                    <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder=" " required>
-                        <label for="email">Your Email</label>
+                    <div class="contact-linkedin-text">
+                        <span class="contact-linkedin-label">Connect with me on</span>
+                        <span class="contact-linkedin-value">linkedin.com/in/dsmolarek</span>
                     </div>
-                    <div class="form-group">
-                        <textarea id="message" name="message" rows="5" placeholder=" " required></textarea>
-                        <label for="message">Your Message</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-full">
-                        <span>Send Message</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
-                    </button>
-                </form>
+                    <svg class="contact-linkedin-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+                </a>
             </div>
         </div>
     </section>
@@ -509,8 +466,7 @@
                 <p>Designed & built by Dominik Smolarek</p>
                 <div class="footer-links">
                     <a href="https://www.linkedin.com/in/dsmolarek/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                    <a href="mailto:dominik.smolarek@outlook.com">Email</a>
-                    <a href="tel:+48606279719">Phone</a>
+
                 </div>
             </div>
         </div>

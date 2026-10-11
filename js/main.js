@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const navToggle = document.getElementById('navToggle');
     const navLinks = document.getElementById('navLinks');
     const typingText = document.getElementById('typingText');
-    const contactForm = document.getElementById('contactForm');
 
     window.addEventListener('scroll', () => {
         navbar.classList.toggle('scrolled', window.scrollY > 50);
@@ -97,21 +96,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 element.textContent = Math.floor(current);
             }
         }, stepTime);
-    }
-
-    if (contactForm) {
-        contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            const btn = contactForm.querySelector('button');
-            const originalContent = btn.innerHTML;
-            btn.innerHTML = '<span>Message Sent!</span>';
-            btn.style.background = 'linear-gradient(135deg, #00d4ff, #6c63ff)';
-            setTimeout(() => {
-                btn.innerHTML = originalContent;
-                btn.style.background = '';
-                contactForm.reset();
-            }, 3000);
-        });
     }
 
     const links = document.querySelectorAll('a[href^="#"]');
