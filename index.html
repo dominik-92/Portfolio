@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominik Smolarek | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo">DS<span class="accent">.</span></a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact" class="nav-cta">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="container hero-content">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">Dominik<br>Smolarek</h1>
+            <div class="hero-title-wrapper">
+                <span class="hero-title" id="typingText"></span>
+                <span class="cursor">|</span>
+            </div>
+            <p class="hero-description">Principal Software Engineer at Pega's GenAI Organization, building AI-powered voicebots and cloud-native conversation orchestration on AWS.</p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            </div>
+            <div class="hero-scroll">
+                <div class="scroll-indicator">
+                    <div class="scroll-line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Passionate about creating<br><span class="gradient-text">impactful solutions</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-image reveal">
+                    <div class="image-placeholder">
+                        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="100" cy="70" r="40" fill="currentColor" opacity="0.3"/>
+                            <path d="M40 180 Q40 130 100 130 Q160 130 160 180" fill="currentColor" opacity="0.3"/>
+                        </svg>
+                        <span>Your Photo</span>
+                    </div>
+                </div>
+                <div class="about-text reveal">
+                    <p class="about-lead">I'm a well-organized and curious person who pays attention to details and enjoys teamwork.</p>
+                    <p>I have been employed at Pega for over 7 years, with experience working in international environments across the USA, Canada and India. In February 2026, I transitioned to the GenAI Organization, where I currently develop voicebot solutions and architect cloud-based conversation orchestration services on AWS.</p>
+                    <p>Outside of work, I'm passionate about travelling, board games, and cooking and baking.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-target="9">0</span><span class="stat-suffix">+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="7">0</span><span class="stat-suffix">+</span>
+                            <span class="stat-label">Years at Pega</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="2">0</span>
+                            <span class="stat-label">Hackathon Wins</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Experience</span>
+                <h2 class="section-title">Where I've <span class="gradient-text">worked</span></h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Principal Software Engineer — GenAI Organization</h3>
+                                <p class="timeline-company">Pega</p>
+                            </div>
+                            <span class="timeline-date">Feb 2026 — Present</span>
+                        </div>
+                        <p>Developing voicebot solutions and architecting AWS-based orchestration services for call and conversation management. Building cloud-native infrastructure for intelligent voice interactions.</p>
+                        <div class="timeline-tags">
+                            <span>Gen AI</span>
+                            <span>AWS</span>
+                            <span>Voicebot</span>
+                            <span>Java</span>
+                            <span>Cloud Architecture</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Principal Software Engineer</h3>
+                                <p class="timeline-company">Pega</p>
+                            </div>
+                            <span class="timeline-date">Nov 2022 — Feb 2026</span>
+                        </div>
+                        <p>Developed core chatbot component and created functionalities that leverage Gen AI. Wrote JUnit tests, conducted code reviews, supported Customer Service teams in chat implementation, acted as SME for incidents, and handled bug triaging and fixing.</p>
+                        <div class="timeline-tags">
+                            <span>Java</span>
+                            <span>Gen AI</span>
+                            <span>JUnit</span>
+                            <span>Docker</span>
+                            <span>Git</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Senior System Architect</h3>
+                                <p class="timeline-company">Pega</p>
+                            </div>
+                            <span class="timeline-date">Apr 2022 — Oct 2022</span>
+                        </div>
+                        <p>Participating in refinement sessions and consulting solutions, configuring REST integrations, conducting peer-to-peer reviews, and mentoring interns.</p>
+                        <div class="timeline-tags">
+                            <span>Pega Platform</span>
+                            <span>REST APIs</span>
+                            <span>Mentoring</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>System Architect</h3>
+                                <p class="timeline-company">Pega</p>
+                            </div>
+                            <span class="timeline-date">Apr 2021 — Mar 2022</span>
+                        </div>
+                        <p>Implementing Pega Platform based applications, preparing solution demos for clients, and assisting client's developers with implementation.</p>
+                        <div class="timeline-tags">
+                            <span>Pega Platform</span>
+                            <span>Client Demos</span>
+                            <span>Implementation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Associate System Architect</h3>
+                                <p class="timeline-company">Pega</p>
+                            </div>
+                            <span class="timeline-date">Jul 2019 — Mar 2021</span>
+                        </div>
+                        <p>Started journey at Pega in the Consulting department, working on Pega Platform applications and gaining expertise in the ecosystem.</p>
+                        <div class="timeline-tags">
+                            <span>Pega Platform</span>
+                            <span>Consulting</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Junior ERP Consultant — MS Dynamics NAV</h3>
+                                <p class="timeline-company">IT.integro</p>
+                            </div>
+                            <span class="timeline-date">Aug 2017 — Feb 2019</span>
+                        </div>
+                        <p>Developing HR and Payroll Application, writing migration scripts, training clients and interns, and programming reports.</p>
+                        <div class="timeline-tags">
+                            <span>C/AL</span>
+                            <span>MS Dynamics NAV</span>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Junior Consultant — Assistant</h3>
+                                <p class="timeline-company">Oknoplast</p>
+                            </div>
+                            <span class="timeline-date">Dec 2016 — Jul 2017</span>
+                        </div>
+                        <p>Creating modifications for clients and providing support after go-live.</p>
+                        <div class="timeline-tags">
+                            <span>ERP</span>
+                            <span>Client Support</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Accountant</h3>
+                                <p class="timeline-company">Oknoplast</p>
+                            </div>
+                            <span class="timeline-date">Aug 2015 — Apr 2016</span>
+                        </div>
+                        <p>Financial accounting and reporting responsibilities.</p>
+                        <div class="timeline-tags">
+                            <span>Finance</span>
+                            <span>Accounting</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Skills</span>
+                <h2 class="section-title">My <span class="gradient-text">toolkit</span></h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category reveal">
+                    <div class="skill-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                    </div>
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">C/AL</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <div class="skill-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    </div>
+                    <h3>Platforms & Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Pega Platform</span>
+                        <span class="skill-tag">MS Dynamics NAV</span>
+                        <span class="skill-tag">Gen AI</span>
+                        <span class="skill-tag">JUnit</span>
+                        <span class="skill-tag">REST APIs</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <div class="skill-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    </div>
+                    <h3>Tools & Cloud</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Bitbucket</span>
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">Sonar</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <div class="skill-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    </div>
+                    <h3>Certificates & Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Pega Senior System Architect</span>
+                        <span class="skill-tag">Pega Decisioning Consultant</span>
+                        <span class="skill-tag">Scrum</span>
+                        <span class="skill-tag">FCE — Cambridge</span>
+                        <span class="skill-tag">English C1</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Projects</span>
+                <h2 class="section-title">Things I've <span class="gradient-text">built</span></h2>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card reveal">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://www.linkedin.com/in/dsmolarek/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Learn more">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>AI Voicebot</h3>
+                        <p>Intelligent voicebot solution leveraging Gen AI for natural conversations. Handles customer interactions with context-aware responses and seamless handoff capabilities.</p>
+                        <div class="project-tech">
+                            <span>Gen AI</span>
+                            <span>Java</span>
+                            <span>Voice AI</span>
+                            <span>NLP</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card reveal">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://www.linkedin.com/in/dsmolarek/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Learn more">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>AWS Conversation Orchestrator</h3>
+                        <p>Cloud-native AWS service for orchestration of calls and conversations. Manages routing, state tracking, and integration between voice channels and AI backends.</p>
+                        <div class="project-tech">
+                            <span>AWS</span>
+                            <span>Cloud Architecture</span>
+                            <span>Microservices</span>
+                            <span>REST APIs</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card reveal">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://www.linkedin.com/in/dsmolarek/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Learn more">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Core Chatbot Component</h3>
+                        <p>Core chatbot functionality for Pega Platform, customized and developed further by other teams across the organization. Foundation for intelligent customer interactions.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Pega Platform</span>
+                            <span>Gen AI</span>
+                            <span>JUnit</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card reveal">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4 4 0 0 0-4 4v2H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2h-2V6a4 4 0 0 0-4-4z"/><circle cx="12" cy="15" r="2"/></svg>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://www.linkedin.com/in/dsmolarek/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Learn more">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Gen AI Hackathon Winner</h3>
+                        <p>Won two internal Gen AI themed hackathons (team award) at Pega, building innovative AI-powered solutions that leverage generative AI capabilities.</p>
+                        <div class="project-tech">
+                            <span>Gen AI</span>
+                            <span>Java</span>
+                            <span>Innovation</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Education</span>
+                <h2 class="section-title">Academic <span class="gradient-text">background</span></h2>
+            </div>
+            <div class="education-grid">
+                <div class="education-card reveal">
+                    <div class="education-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg>
+                    </div>
+                    <div class="education-info">
+                        <h3>Computer Science — Bachelor's degree</h3>
+                        <p class="education-school">Jagiellonian University</p>
+                        <p class="education-date">2014 — 2016</p>
+                        <p>Faculty of Physics, Astronomy and Applied Computer Science.</p>
+                    </div>
+                </div>
+                <div class="education-card reveal">
+                    <div class="education-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg>
+                    </div>
+                    <div class="education-info">
+                        <h3>Finance and Accounting — Master's degree</h3>
+                        <p class="education-school">Cracow University of Economics</p>
+                        <p class="education-date">2012 — 2017</p>
+                        <p>Faculty of Finance. Completed both Bachelor's (2011—2014) and Master's programs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contact</span>
+                <h2 class="section-title">Let's work <span class="gradient-text">together</span></h2>
+                <p class="section-subtitle">I'm always open to new opportunities and interesting projects. Feel free to reach out!</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <a href="mailto:dominik.smolarek@outlook.com" class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        </div>
+                        <div>
+                            <span class="contact-label">Email</span>
+                            <span class="contact-value">dominik.smolarek@outlook.com</span>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/dsmolarek/" target="_blank" rel="noopener noreferrer" class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        </div>
+                        <div>
+                            <span class="contact-label">LinkedIn</span>
+                            <span class="contact-value">linkedin.com/in/dsmolarek</span>
+                        </div>
+                    </a>
+                    <a href="tel:+48606279719" class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        </div>
+                        <div>
+                            <span class="contact-label">Phone</span>
+                            <span class="contact-value">(+48) 606-279-719</span>
+                        </div>
+                    </a>
+                </div>
+                <form class="contact-form reveal" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder=" " required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder=" " required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder=" " required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Send Message</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="nav-logo">DS<span class="accent">.</span></a>
+                <p>Designed & built by Dominik Smolarek</p>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/dsmolarek/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="mailto:dominik.smolarek@outlook.com">Email</a>
+                    <a href="tel:+48606279719">Phone</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
